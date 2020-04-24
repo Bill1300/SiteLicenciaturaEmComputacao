@@ -15,18 +15,43 @@
   text-shadow: #fff 0 0 2px !important;
 }
 
+.main_menu-d1 .navbar-light .navbar-nav .active>.nav-link{
+  color: #0c2e60 !important;
+  text-shadow: #0c2e60 0 0 2px !important;
+}
+
+.main_menu-d1{
+  color: #0c2e60 !important;
+}
+
 .menu_fixed .navbar-light .navbar-nav .active>.nav-link{
   color: #0c2e60  !important;
   text-shadow: #0c2e60 0 0 2px !important;
 }
 
-.img-docente-perfil{
-  max-width: 155px;
+figure{
+  max-width: 155px; /*container-width*/
+  max-height: 206.66px;
+  overflow:hidden; /*hide bounds of image */
+  margin:0;   /*reset margin of figure tag*/
+  border-radius: 5%;
+}
+
+figure .img-docente-perfil{
+  width: auto;
+  height: auto;
+   /*width:100%;make image streatch*/
+  /*max-width: 155px;
   margin-top: 4%;
   height: 180px;
   width: 180px;
-  border-radius: 40px;
+  border-radius: 40px;*/
+
+
 }
+
+
+
 /**************** extend css start ****************/
 /**************** common css start ****************/
 /* line 3, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
@@ -156,12 +181,14 @@ a {
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  
 }
 
 /* line 66, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
 a:hover {
   outline: none;
   text-decoration: none;
+  color: #38a4ff !important;
 }
 
 /* line 72, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
