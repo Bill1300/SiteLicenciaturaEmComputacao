@@ -5,8 +5,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Início - Licenciatura em Computação</title>
-    <meta name="theme-color" content="#fff">
-    <link rel="icon" href="img/icones/logo-branca.png">
+
+    <!-- Favicon e cor tema (para todas as páginas)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icones/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icones/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icones/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/icones/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icones/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/icones/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/icones/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icones/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icones/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icones/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/icones/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icones/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- animate CSS -->
@@ -55,7 +73,7 @@
                                     <a class="nav-link main_menu-d1" href="projeto.html">Projeto</a>
                                 </li>
                                 <li class="d-none d-lg-block">
-                                    <a class="btn_1" href="contato.html">Contato</a>
+                                    <a class="btn_1" id="btn_1_pink" href="contato.html">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -80,7 +98,7 @@
                                 métodos e sistemas computacionais,
                                 além de terem a capacidade técnica de lecionar para turmas do ensino fundamental e
                                 médio.</p>
-                            <a href="documentos.html" class="btn_1">Documentos</a>
+                            <a href="documentos.html" class="btn_1" id="btn_1_pink">Documentos</a>
                         </div>
                     </div>
                 </div>
@@ -156,14 +174,15 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5">
                     <div class="section_tittle text-center">
-                        <h2>Matérias</h2>
+                        <h2>Áreas</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/inteligencia-artificial/3190325.jpg" class="special_img" alt="Inteligência Artificial">
+                        <img src="img/topicos-materias/inteligencia-artificial/3190325.jpg" class="special_img"
+                            alt="Inteligência Artificial">
                         <div class="special_cource_text">
                             <a href="paginas-materias/inteligencia-artificial.html" class="btn_2">Ler mais</a>
                             <a href="paginas-materias/inteligencia-artificial.html">
@@ -185,20 +204,21 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/engenharia-software/3190343.jpg" class="special_img" alt="Engenharia de Software">
+                        <img src="img/topicos-materias/informatica-educacao/3054605.jpg" class="special_img"
+                            alt="Redes">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/engenharia-software.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/engenharia-software.html">
-                                <h3>Engenharia de Software</h3>
+                            <a href="paginas-materias/informatica-educacao" class="btn_2">Ler mais</a>
+                            <a href="paginas-materias/informatica-educacao">
+                                <h3>Informática e Educação</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
-                                leva para o texto completo </p>
+                                leva para o texto completo.</p>
                             <div class="author_info">
                                 <div class="author_img">
-                                    <img src="img/author/author_1.png" alt="Professor Anderson Marcolino">
+                                    <img src="img/author/author_3.png" alt="Professora Eliana Santana Lisbôa">
                                     <div class="author_info_text">
-                                        <p>Professor:</p>
-                                        <h5><a href="#">Anderson Marcolino</a></h5>
+                                        <p>Professora:</p>
+                                        <h5><a href="#">Eliana Santana Lisbôa</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +249,8 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/ensino-computacao/3400909.jpg" class="special_img" alt="Ensino de Computação">
+                        <img src="img/topicos-materias/ensino-computacao/3400909.jpg" class="special_img"
+                            alt="Ensino de Computação">
                         <div class="special_cource_text">
                             <a href="paginas-materias/ensino-computacao.html" class="btn_2">Ler mais</a>
                             <a href="paginas-materias/ensino-computacao.html">
@@ -273,20 +294,21 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/informatica-educacao/3054605.jpg" class="special_img" alt="Redes">
+                        <img src="img/topicos-materias/engenharia-software/3190343.jpg" class="special_img"
+                            alt="Engenharia de Software">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/informatica-educacao" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/informatica-educacao">
-                                <h3>Informática e Educação</h3>
+                            <a href="paginas-materias/engenharia-software.html" class="btn_2">Ler mais</a>
+                            <a href="paginas-materias/engenharia-software.html">
+                                <h3>Engenharia de Software</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
-                                leva para o texto completo.</p>
+                                leva para o texto completo </p>
                             <div class="author_info">
                                 <div class="author_img">
-                                    <img src="img/author/author_3.png" alt="Professora Eliana Santana Lisbôa">
+                                    <img src="img/author/author_1.png" alt="Professor Anderson Marcolino">
                                     <div class="author_info_text">
-                                        <p>Professora:</p>
-                                        <h5><a href="#">Eliana Santana Lisbôa</a></h5>
+                                        <p>Professor:</p>
+                                        <h5><a href="#">Anderson Marcolino</a></h5>
                                     </div>
                                 </div>
                             </div>
