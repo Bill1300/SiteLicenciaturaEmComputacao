@@ -45,13 +45,13 @@
 
 <body>
     <!--Header-->
-    <header class="main_menu main_menu-d1 single_page_menu">
+    <header class="main_menu single_page_menu">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light main_menu-d1">
-                        <a class="navbar-brand logo_1" href="index.html"> <img src="img/icones/logo-azul.png"
-                                width="82px" height="auto" alt="Logo"> </a>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img class="img-logo"
+                                src="img/icones/logo-azul-horin.png" alt="logo" height="52px"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -63,17 +63,31 @@
                                 <li class="nav-item active">
                                     <a class="nav-link main_menu-d1" href="index.html">Início</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link main_menu-d1" href="o_curso.html">O Curso</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="html/paginas-menu/o-curso.html"
+                                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">O Curso
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Elemento 1</a>
+                                        <a class="dropdown-item" href="#">Elemento 2</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link main_menu-d1" href="ensino.html">Ensino</a>
+                                    <a class="nav-link main_menu-d1" href="html/paginas-menu/ensino.html">Ensino</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link main_menu-d1" href="projeto.html">Projeto</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">Projetos
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">Pesquisa</a>
+                                        <a class="dropdown-item" href="#">Extensão</a>
+                                    </div>
                                 </li>
                                 <li class="d-none d-lg-block">
-                                    <a class="btn_1" id="btn_1_pink" href="contato.html">Contato</a>
+                                    <a class="btn_1" id="btn_1_pink" href="html/contato/contato.html">Contato</a>
                                 </li>
                             </ul>
                         </div>
@@ -98,7 +112,7 @@
                                 métodos e sistemas computacionais,
                                 além de terem a capacidade técnica de lecionar para turmas do ensino fundamental e
                                 médio.</p>
-                            <a href="documentos.html" class="btn_1" id="btn_1_pink">Documentos</a>
+                            <a href="html/paginas-menu/documentos.html" class="btn_1" id="btn_1_pink">Documentos</a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +188,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5">
                     <div class="section_tittle text-center">
-                        <h2>Áreas</h2>
+                        <h2>Matérias</h2>
                     </div>
                 </div>
             </div>
@@ -184,8 +198,8 @@
                         <img src="img/topicos-materias/inteligencia-artificial/3190325.jpg" class="special_img"
                             alt="Inteligência Artificial">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/inteligencia-artificial.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/inteligencia-artificial.html">
+                            <a href="html/paginas-materias/inteligencia-artificial.html" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-materias/inteligencia-artificial.html">
                                 <h3>Inteligência Artificial</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
@@ -204,21 +218,21 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/informatica-educacao/3054605.jpg" class="special_img"
-                            alt="Redes">
+                        <img src="img/topicos-materias/engenharia-software/3190343.jpg" class="special_img"
+                            alt="Engenharia de Software">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/informatica-educacao" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/informatica-educacao">
-                                <h3>Informática e Educação</h3>
+                            <a href="html/paginas-areas/engenharia-software.html" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-areas/engenharia-software.html">
+                                <h3>Engenharia de Software</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
-                                leva para o texto completo.</p>
+                                leva para o texto completo </p>
                             <div class="author_info">
                                 <div class="author_img">
-                                    <img src="img/author/author_3.png" alt="Professora Eliana Santana Lisbôa">
+                                    <img src="img/author/author_1.png" alt="Professor Anderson Marcolino">
                                     <div class="author_info_text">
-                                        <p>Professora:</p>
-                                        <h5><a href="#">Eliana Santana Lisbôa</a></h5>
+                                        <p>Professor:</p>
+                                        <h5><a href="#">Anderson Marcolino</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -229,8 +243,8 @@
                     <div class="single_special_cource">
                         <img src="img/topicos-materias/redes/2794209.jpg" class="special_img" alt="Redes">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/redes.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/redes.html">
+                            <a href="html/paginas-areas/redes.html" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-areas/redes.html">
                                 <h3>Redes</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
@@ -252,8 +266,8 @@
                         <img src="img/topicos-materias/ensino-computacao/3400909.jpg" class="special_img"
                             alt="Ensino de Computação">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/ensino-computacao.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/ensino-computacao.html">
+                            <a href="html/paginas-areas/ensino-computacao.html" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-areas/ensino-computacao.html">
                                 <h3>Ensino de Computação</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
@@ -274,8 +288,8 @@
                     <div class="single_special_cource">
                         <img src="img/topicos-materias/arquitetura-so/3366891.jpg" class="special_img" alt="Redes">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/arquitetura-so.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/arquitetura-so.html">
+                            <a href="html/paginas-areas/arquitetura-so.html" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-areas/arquitetura-so.html">
                                 <h3>Arquitetura e S.O.</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
@@ -294,21 +308,21 @@
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_special_cource">
-                        <img src="img/topicos-materias/engenharia-software/3190343.jpg" class="special_img"
-                            alt="Engenharia de Software">
+                        <img src="img/topicos-materias/informatica-educacao/3054605.jpg" class="special_img"
+                            alt="Redes">
                         <div class="special_cource_text">
-                            <a href="paginas-materias/engenharia-software.html" class="btn_2">Ler mais</a>
-                            <a href="paginas-materias/engenharia-software.html">
-                                <h3>Engenharia de Software</h3>
+                            <a href="html/paginas-areas/informatica-educacao" class="btn_2">Ler mais</a>
+                            <a href="html/paginas-areas/informatica-educacao">
+                                <h3>Informática e Educação</h3>
                             </a>
                             <p>Uma descrição básica sobre a matéria pra fzr o aluno escolher esse curso. O "ler mais"
-                                leva para o texto completo </p>
+                                leva para o texto completo.</p>
                             <div class="author_info">
                                 <div class="author_img">
-                                    <img src="img/author/author_1.png" alt="Professor Anderson Marcolino">
+                                    <img src="img/author/author_3.png" alt="Professora Eliana Santana Lisbôa">
                                     <div class="author_info_text">
-                                        <p>Professor:</p>
-                                        <h5><a href="#">Anderson Marcolino</a></h5>
+                                        <p>Professora:</p>
+                                        <h5><a href="#">Eliana Santana Lisbôa</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -326,7 +340,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-4 col-xl-3">
                     <div class="single-footer-widget footer_1">
-                        <a href="index.html"> <img src="img/icones/logo-azul-legenda.png" alt="Logo">
+                        <a href="index.html"> <img src="img/icones/logo-azul.png" alt="Logo" max-width="55px">
                         </a>
                     </div>
                 </div>
@@ -370,6 +384,11 @@
     </footer>
     <!--/Footer-->
 
+    <!-- jquery plugins here-->
+    <!-- jquery -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
     <!-- bootstrap js -->
     <script src="js/bootstrap.min.js"></script>
     <!-- easing js -->

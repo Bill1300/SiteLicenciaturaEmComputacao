@@ -50,6 +50,12 @@ figure .img-docente-perfil{
 
 }
 
+@media only screen and (max-width: 799px) {
+  /* line 18, E:/172 Etrain Education/172_Etrain_Education_html/sass/_common.scss */
+  .img-logo  {
+    height: 40px;
+  }
+}
 
 
 /**************** extend css start ****************/
@@ -572,15 +578,16 @@ ul {
   background-size: 200% auto;
   border: 1px solid transparent;
 }
-#btn_1_pink{
-  background-color: #f73f69;
-}
 
 /* line 38, E:/172 Etrain Education/172_Etrain_Education_html/sass/_button.scss */
 .btn_1:hover {
   color: #fff !important;
   text-shadow: #fff 0 0 2px !important;
   background-position: right center;
+}
+
+#btn_1_pink {
+  background-color: #f73f69;
 }
 
 @media (max-width: 576px) {
@@ -2259,7 +2266,7 @@ ul {
 
 /* line 73, E:/172 Etrain Education/172_Etrain_Education_html/sass/_menu.scss */
 .dropdown .dropdown-menu {
-  transition: all 0.5s;
+  transition: all 0.3s;
   overflow: hidden;
   transform-origin: top center;
   transform: scale(1, 0);
