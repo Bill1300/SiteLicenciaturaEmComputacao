@@ -4062,7 +4062,9 @@ ul {
   }
   /* line 22, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
   .special_cource .single_special_cource .special_img {
-    width: 100%;
+    max-width:100%;
+    max-height:100%;
+    padding: 3px;;
   }
 }
 
@@ -4073,7 +4075,8 @@ ul {
   }
   /* line 31, E:/172 Etrain Education/172_Etrain_Education_html/sass/_special_cource.scss */
   .special_cource .single_special_cource .special_img {
-    width: 100%;
+    max-width:100%;
+    max-height:100%;
   }
 }
 
@@ -4088,7 +4091,6 @@ ul {
 .special_cource .single_special_cource .special_cource_text {
   padding: 35px 35px 40px;
   border: 1px solid #edeff2;
-  border-top: 0px;
   margin: 20px 0;
 }
 
@@ -7054,7 +7056,6 @@ h6 {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
-  text-transform: capitalize;
 }
 
 @media (max-width: 576px) {
