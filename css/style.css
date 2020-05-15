@@ -33,6 +33,12 @@
   text-shadow: #0c2e60 0 0 2px !important;
 }
 
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
 figure {
   max-width: 155px; /*container-width*/
   max-height: 206.66px;
@@ -44,12 +50,6 @@ figure {
 figure .img-docente-perfil {
   width: auto;
   height: auto;
-  /*width:100%;make image streatch*/
-  /*max-width: 155px;
-  margin-top: 4%;
-  height: 180px;
-  width: 180px;
-  border-radius: 40px;*/
 }
 
 table.disciplinas {
@@ -7437,5 +7437,3 @@ h6 {
 .footer-area .btn_1 {
   margin-top: 0px;
 }
-
-/*# sourceMappingURL=style.css.map */
