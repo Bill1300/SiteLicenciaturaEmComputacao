@@ -4307,6 +4307,10 @@ ul {
   font-weight: 600;
   margin-bottom: 13px;
 }
+#title_top_img{
+  margin: 4px;
+
+}
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
 .course_details_area .title {
