@@ -9,6 +9,22 @@
   background-color: #0c2e60;
 }
 
+.learning_part strong{
+  color: #0c2e60;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+
+.activea{
+  background-color: #6ab9fa !important;
+}
+
+.dropdown-item:hover {
+  background-color: #add9fd !important;
+}
+
+
 .main_menu .navbar-light .navbar-nav .active > .nav-link {
   color: #fff !important;
   text-shadow: #fff 0 0 2px !important;
@@ -33,12 +49,17 @@
   text-shadow: #0c2e60 0 0 2px !important;
 }
 
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: lightgrey;
-  border-radius: 5px;
-}
+
+@media (max-width: 414px) { 
+  figure {
+    min-width: 90px; /*container-width*/
+    min-height: 90px;
+    overflow: hidden; /*hide bounds of image */
+    margin: 0; /*reset margin of figure tag*/
+    border-radius: 5%;
+  }
+ }
+
 
 figure {
   max-width: 155px; /*container-width*/
@@ -4307,10 +4328,6 @@ ul {
   font-weight: 600;
   margin-bottom: 13px;
 }
-#title_top_img{
-  margin: 4px;
-
-}
 
 /* line 8, E:/172 Etrain Education/172_Etrain_Education_html/sass/_cource_details.scss */
 .course_details_area .title {
@@ -4983,6 +5000,7 @@ ul {
 /* line 98, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
 .footer-area .footer_1 img {
   margin-bottom: 35px;
+
 }
 
 /* line 101, E:/172 Etrain Education/172_Etrain_Education_html/sass/_footer.scss */
@@ -7053,6 +7071,7 @@ h6 {
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item {
   display: table-cell;
   vertical-align: middle;
+  text-transform: initial;
 }
 
 /* line 31, E:/172 Etrain Education/172_Etrain_Education_html/sass/_breadcrumb.scss */
@@ -7061,6 +7080,7 @@ h6 {
   font-size: 50px;
   font-weight: 600;
   margin-bottom: 10px;
+  text-transform: initial;
 }
 
 @media (max-width: 576px) {
@@ -7233,6 +7253,14 @@ h6 {
   .footer-area .single-footer-widget .click-btn {
     margin-top: 10px;
   }
+}
+
+@media (min-width: 450px) {
+  .footer-area .footer_1 img {
+    margin-bottom: 35px;
+    margin-left: 15px;
+  }
+  
 }
 
 @media (min-width: 400px) {
@@ -7442,3 +7470,5 @@ h6 {
 .footer-area .btn_1 {
   margin-top: 0px;
 }
+
+/*# sourceMappingURL=style.css.map */
