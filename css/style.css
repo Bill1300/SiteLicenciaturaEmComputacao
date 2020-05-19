@@ -9,6 +9,12 @@
   background-color: #0c2e60;
 }
 
+.map{
+  height: 400px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
 .learning_part strong{
   color: #0c2e60;
   font-size: 16px;
