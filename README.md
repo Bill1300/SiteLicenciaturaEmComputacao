@@ -8,7 +8,6 @@ Link para documentos do drive: https://drive.google.com/drive/folders/14UyJ9qQiZ
 #### De 23/03 até 06/04 - Desenvolver em HTML5:
 Item Menu  | Responsável
 ------------- | -------------
-Itens | Responsável
 Início | Luan
 O Curso | Gabriel
 Currículo | Julio
