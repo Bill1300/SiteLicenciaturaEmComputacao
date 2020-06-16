@@ -1,6 +1,6 @@
     // -------   Mail Send ajax
 
-     $(document).ready(function() {
+    $(document).ready(function() {
         var form = $('#myForm'); // contact form
         var submit = $('.submit-btn'); // submit button
         var alert = $('.alert-msg'); // alert div for show alert message
@@ -16,7 +16,7 @@
                 data: form.serialize(), // serialize form data
                 beforeSend: function() {
                     alert.fadeOut();
-                    submit.html('Sending....'); // change submit button text
+                    submit.html('Enviando....'); // change submit button text
                 },
                 success: function(data) {
                     alert.html(data).fadeIn(); // fade in response data
